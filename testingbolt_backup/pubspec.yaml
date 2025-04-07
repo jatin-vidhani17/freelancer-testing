@@ -1,0 +1,28 @@
+name: freelancer_app
+description: A professional freelancer platform application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  hive: ^2.1.0
+  hive_flutter: ^1.1.0  
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  intl: ^0.17.0
+  web_socket_channel: ^2.1.0
+  shimmer: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
